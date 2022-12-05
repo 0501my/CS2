@@ -9,7 +9,7 @@ export class UserManagement implements Mismanagement {
     private static users : User[] = [];
     private static id : number = 1;
     constructor() {
-        let admin = new User('admin','123456','longnguyen23993@gmail.com','Lê Tràng Đại')
+        let admin = new User('admin','123456','dai123@gmail.com','Lê Tràng Đại')
         admin.id = UserManagement.id
         admin.role = Role.ADMIN
         UserManagement.users.push(admin)
